@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: Champagne;
+	src: url(cac_champagne.woff) format('woff'),
+	     url(cac_champagne.ttf) format('ttf');
+}
+
+/* ILYA GOLOVIN 3/30/2022
+   
+   Project 3
+   
+
+*/
+
+html {
+    background-color:rgb(18, 213, 252);
+    font-family: Verdana, Geneva, Arial, sans-serif; 	
+ }
+ 
+ body {
+    
+    background-color: #f7f3be;  
+ }
+
+
+ h1, h2, h3 {
+    text-indent: 1em;
+ }
+
+ h1 {
+    font-size: 2.4em;
+    line-height: 2.4em;
+    font-family: Champagne, cursive;
+    letter-spacing: 0.3em;
+    text-align: center;
+    font-weight: normal;
+    color: blue;
+ }
+
+ aside {
+    
+    padding-bottom: 2em;
+    margin-left: 1em;
+ }
+ 
+ aside > h2 {
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+    color: rgb(201, 201, 201);
+ }
+
+ dl {
+    font-size: 0.9em;
+ }
+ 
+ dl > dt {
+    color: black;
+    margin: 1em;
+    
+ }
+ 
+ dl > dd {
+    margin: 0 1em 0 1em;
+    }
+
+ p {
+    margin: 1em;
+ }
+
+ /* Horizontal Navigation Styles */
+
+nav.horizontalNavigation a {
+    background-color: #f7f3be;
+    font-family: Champagne, cursive;
+    font-size: 1.4em;
+    line-height: 1.8em;
+    text-align: center;
+ }  
+ 
+ nav.horizontalNavigation a:link, 
+ nav.horizontalNavigation a:visited {
+    
+  
+    color: black;
+    
+ }
+ 
+ nav.horizontalNavigation a:hover
+  {
+    
+    font-size: 2em;
+    font-size-adjust: 2em;
+    background-color: red;
+ } 
+
+div.attractions h2, h3 {
+    margin: 20px;
+    text-align: center;
+}
+ 
